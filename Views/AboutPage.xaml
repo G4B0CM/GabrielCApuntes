@@ -17,6 +17,8 @@
         </HorizontalStackLayout>
 
         <Label Text="{Binding Message}" />
+        <Label Text="Descripción:" />
+        <Label Text="Soy un estudiante de Software aprendiendo MAUI" />
         <Button Text="Learn more..." Clicked="LearnMore_Clicked" />
     </VerticalStackLayout>
 </ContentPage>
